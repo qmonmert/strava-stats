@@ -19,4 +19,16 @@
     * > var lib = require('./src/index.js');
     * > lib.athlete
     * > lib.activities
-    
+6. Push on github
+7. Publishing to NPM
+  * npm publish
+  * npm info strava-stats
+8. Test
+  * Create a new folder
+  * > npm install strava-stats (create node_modules)
+  * > vim index.js
+```javascript
+var stravaStats = require('strava-stats');
+console.log(stravaStats.athlete);
+```    
+  * > node index.js
