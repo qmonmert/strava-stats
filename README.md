@@ -36,4 +36,7 @@ console.log(stravaStats.athlete);
   * > git tag 1.0.0  
   * > git push --tags
   * Attach this tag to a release on github
-
+10. Releasing a new version to npm
+  * Update activities.json
+  * Update package.json (version 1.1.0)
+  
