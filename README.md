@@ -32,3 +32,8 @@ var stravaStats = require('strava-stats');
 console.log(stravaStats.athlete);
 ```    
   * > node index.js
+9. Releasing a version to github
+  * > git tag 1.0.0  
+  * > git push --tags
+  * Attach this tag to a release on github
+
