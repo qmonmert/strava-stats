@@ -13,3 +13,10 @@
   * npm set save-exact true
   * npm adduser
   * npm init (package.json is created)
+4. Create src/index.js
+5. Test
+  * $ node
+    * > var lib = require('./src/index.js');
+    * > lib.athlete
+    * > lib.activities
+    
