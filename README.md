@@ -1,6 +1,6 @@
 # Open source javascript library
 
-## Strava stats
+## Strava stats : https://www.npmjs.com/package/strava-stats
 
 ### Creation
 
@@ -48,4 +48,7 @@ console.log(stravaStats.athlete);
   * Create index.test.js
   * Change package.json (test)
   * > npm test
-     
+12. Automating releases with semantic-release
+  * > npm install -g semantic-release-cli
+  * > semantic-release-cli setup
+  
