@@ -39,4 +39,8 @@ console.log(stravaStats.athlete);
 10. Releasing a new version to npm
   * Update activities.json
   * Update package.json (version 1.1.0)
+  * > git tag 1.1.0
+  * > git push --tags
+  * > npm publish
+  * > npm info strava-stats
   
