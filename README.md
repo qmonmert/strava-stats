@@ -43,4 +43,9 @@ console.log(stravaStats.athlete);
   * > git push --tags
   * > npm publish
   * > npm info strava-stats
-  
+11. Testing with mocha and chai
+  * > npm install mocha chai --save-dev
+  * Create index.test.js
+  * Change package.json (test)
+  * > npm test
+     
