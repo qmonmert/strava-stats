@@ -1,10 +1,11 @@
 {
     "name": "strava-stats",
-    "version": "1.1.0",
+    "version": "0.0.0-semantically-released",
     "description": "Get strava stats",
     "main": "src/index.js",
     "scripts": {
-        "test": "mocha src/index.test.js -w"
+        "test": "mocha src/index.test.js -w",
+        "semantic-release": "semantic-release pre && npm publish && semantic-release post"
     },
     "repository": {
         "type": "git",
@@ -22,6 +23,7 @@
     "homepage": "https://github.com/qmonmert/strava-stats#readme",
     "devDependencies": {
         "chai": "3.5.0",
-        "mocha": "3.2.0"
+        "mocha": "3.2.0",
+        "semantic-release": "^6.3.2"
     }
 }

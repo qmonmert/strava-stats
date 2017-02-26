@@ -51,4 +51,4 @@ console.log(stravaStats.athlete);
 12. Automating releases with semantic-release
   * > npm install -g semantic-release-cli
   * > semantic-release-cli setup
-  
+  * Update .travis.yml (npm run test)
