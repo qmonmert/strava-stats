@@ -56,6 +56,13 @@ console.log(stravaStats.athlete);
 13. Writing conventional commits with commitizen
   * > npm install -D commitizen cz-conventional-changelog
   * Update package.json
+  * > git add -A
+  * > npm run commit
+14. Committing a new feature with commitizen
+  * Create a new feature
+  * > git add - A
+  * > npm run commit
+    
 
 
 
