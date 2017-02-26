@@ -62,7 +62,11 @@ console.log(stravaStats.athlete);
   * Create a new feature
   * > git add - A
   * > npm run commit
-    
-
-
-
+15. Automatically releasing with TravisCI
+  * > git push origin master
+  * Issues are closed
+  * https://travis-ci.org/qmonmert/strava-stats
+  * Add test:single in package.json and npm run test:single in /travis.yml   
+  * > git add -A
+  * > npm run commit
+  
