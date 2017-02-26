@@ -50,5 +50,12 @@ console.log(stravaStats.athlete);
   * > npm test
 12. Automating releases with semantic-release
   * > npm install -g semantic-release-cli
+  * Authorize Travis on Github
   * > semantic-release-cli setup
   * Update .travis.yml (npm run test)
+13. Writing conventional commits with commitizen
+  * > npm install -D commitizen cz-conventional-changelog
+  * Update package.json
+
+
+
