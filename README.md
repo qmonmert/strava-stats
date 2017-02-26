@@ -69,4 +69,5 @@ console.log(stravaStats.athlete);
   * Add test:single in package.json and npm run test:single in /travis.yml   
   * > git add -A
   * > npm run commit
+  * > git push origin master
   

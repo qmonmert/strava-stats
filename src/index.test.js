@@ -4,7 +4,7 @@ var stravaStats = require('./index');
 describe('strava-stats', function() {
 
     var firstname = 'Quentin';
-    var nbActivities = 15;
+    var nbActivities = 20;
 
     describe('athlete', function() {
 
